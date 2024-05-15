@@ -2,24 +2,34 @@
 <html>
 <head>
     <title>AI ChatBot</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <iframe src="https://app.writesonic.com/" width="100%" height="100%" frameborder="0"></iframe>
-
+    <div id="content">
+        <a class="button" href="https://app.writesonic.com/">Go to AI ChatBot</a>
+    </div>
 </body>
-  <style>
-      body, html {
-          margin: 0;
-          padding: 0;
-          height: 100%;
-          overflow: hidden;
-      }
-      iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-      }
-  </style>
 </html>
